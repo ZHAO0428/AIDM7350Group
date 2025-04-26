@@ -1,0 +1,3655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Digital Immortality - AI Cloud Consciousness</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore the future of Digital Immortality through AI Cloud Consciousness. Learn about the technology, ethics, and implications of preserving human consciousness digitally.">
+  <style>
+    :root {
+      --primary: #4A90E2;
+      --secondary: #2C3E50;
+      --accent: #00D1B2;
+      --background: #F8F9FA;
+      --card: #FFFFFF;
+      --highlight: #7ED6DF;
+      --text: #2C3E50;
+      --link: #4A90E2;
+      --success: #00B894;
+      --border: rgba(74,144,226,0.2);
+      --shadow: rgba(74,144,226,0.1);
+      --gradient-primary: linear-gradient(135deg, #4A90E2 0%, #2C3E50 100%);
+      --gradient-highlight: linear-gradient(135deg, #7ED6DF 0%, #00D1B2 100%);
+      
+      /* 新增字体变量 */
+      --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      --font-heading: 'Poppins', var(--font-primary);
+      --font-size-base: 16px;
+      --line-height-base: 1.6;
+      --letter-spacing-base: 0.01em;
+    }
+
+    /* 基础排版优化 */
+    body {
+      font-family: var(--font-primary);
+      font-size: var(--font-size-base);
+      line-height: var(--line-height-base);
+      letter-spacing: var(--letter-spacing-base);
+      color: var(--text);
+      background-color: var(--background);
+    }
+
+    /* 标题样式优化 */
+    h1, h2, h3, h4, h5, h6 {
+      font-family: var(--font-heading);
+      font-weight: 600;
+      line-height: 1.3;
+      margin-bottom: 1.5rem;
+      letter-spacing: -0.02em;
+    }
+
+    h1 { font-size: 2.5rem; }
+    h2 { font-size: 2rem; }
+    h3 { font-size: 1.75rem; }
+    h4 { font-size: 1.5rem; }
+    h5 { font-size: 1.25rem; }
+    h6 { font-size: 1.1rem; }
+
+    /* 段落间距优化 */
+    p {
+      margin-bottom: 1.5rem;
+      line-height: 1.8;
+      text-align: justify;
+      text-justify: inter-word;
+      hyphens: auto;
+    }
+
+    /* 列表样式优化 */
+    ul, ol {
+      margin-bottom: 1.5rem;
+      padding-left: 1.5rem;
+    }
+
+    li {
+      margin-bottom: 0.75rem;
+      line-height: 1.6;
+      text-align: justify;
+      text-justify: inter-word;
+      hyphens: auto;
+    }
+
+    /* 卡片样式优化 */
+    .card {
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 6px var(--shadow);
+      border-radius: 12px;
+      padding: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 15px var(--shadow);
+    }
+
+    /* 按钮样式优化 */
+    .btn {
+      transition: all 0.3s ease;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      font-weight: 500;
+      letter-spacing: 0.5px;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px var(--shadow);
+    }
+
+    /* 图片动画效果 */
+    img {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    img:hover {
+      transform: scale(1.02);
+      box-shadow: 0 8px 15px var(--shadow);
+    }
+
+    /* 导航栏优化 */
+    .nav-link {
+      position: relative;
+      padding: 0.5rem 1rem;
+      transition: all 0.3s ease;
+    }
+
+    .nav-link::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      width: 0;
+      height: 2px;
+      background: var(--accent);
+      transition: all 0.3s ease;
+      transform: translateX(-50%);
+    }
+
+    .nav-link:hover::after {
+      width: 100%;
+    }
+
+    /* 页面加载动画 */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .fade-in {
+      animation: fadeIn 0.6s ease forwards;
+    }
+
+    /* 滚动条美化 */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: var(--background);
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: var(--primary);
+      border-radius: 4px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: var(--accent);
+    }
+
+    /* 响应式优化 */
+    @media (max-width: 768px) {
+      :root {
+        --font-size-base: 15px;
+      }
+      
+      h1 { font-size: 2rem; }
+      h2 { font-size: 1.75rem; }
+      h3 { font-size: 1.5rem; }
+      h4 { font-size: 1.25rem; }
+      h5 { font-size: 1.1rem; }
+      h6 { font-size: 1rem; }
+    }
+
+    /* 添加平滑滚动效果 */
+    html {
+      scroll-behavior: smooth;
+    }
+
+    /* 添加页面加载动画 */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .section {
+      animation: fadeIn 0.8s ease-out;
+    }
+
+    /* 添加卡片悬停效果 */
+    .research-item, .tech-item, .market-item, .ethical-category {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .research-item:hover, .tech-item:hover, .market-item:hover, .ethical-category:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+    }
+
+    /* 添加按钮动画效果 */
+    .research-link, .nav-link, .dropdown-content a {
+      position: relative;
+      overflow: hidden;
+      transition: all 0.3s ease;
+    }
+
+    .research-link:hover, .nav-link:hover, .dropdown-content a:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    /* 添加图片悬停效果 */
+    .research-image img, .tech-image img, .market-image img {
+      transition: transform 0.3s ease;
+    }
+
+    .research-image:hover img, .tech-image:hover img, .market-image:hover img {
+      transform: scale(1.05);
+    }
+
+    /* 添加导航栏动画 */
+    .nav-link {
+      position: relative;
+    }
+
+    .nav-link::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background: var(--accent);
+      transition: width 0.3s ease;
+    }
+
+    .nav-link:hover::after {
+      width: 100%;
+    }
+
+    /* 添加渐变背景动画 */
+    .hero {
+      background: linear-gradient(-45deg, #4A90E2, #2C3E50, #00D1B2, #7ED6DF);
+      background-size: 400% 400%;
+      animation: gradientBG 15s ease infinite;
+    }
+
+    .hero-image {
+      background: url('./images/concept/digital-afterlife.jpg') no-repeat center/cover;
+    }
+
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    /* 添加滚动条美化 */
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: var(--background);
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: var(--primary);
+      border-radius: 4px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: var(--accent);
+    }
+
+    /* 添加响应式动画 */
+    @media (max-width: 768px) {
+      .section {
+        animation: fadeIn 0.5s ease-out;
+      }
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Inter', 'SF Pro Text', 'Segoe UI', 'Helvetica Neue', Arial, 'PingFang SC', 'Hiragino Sans', 'Microsoft YaHei', sans-serif;
+      background: var(--background);
+      color: var(--text);
+      min-height: 100vh;
+      line-height: 1.8;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      overflow-x: hidden;
+      width: 100%;
+      position: relative;
+      background-image: 
+        radial-gradient(circle at 10% 20%, rgba(232,215,241,0.1) 0%, transparent 20%),
+        radial-gradient(circle at 90% 80%, rgba(180,200,169,0.1) 0%, transparent 20%);
+    }
+    header {
+      background: transparent;
+      padding: 0;
+      text-align: center;
+      width: 100%;
+      position: relative;
+      overflow: hidden;
+    }
+    header::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: 
+        linear-gradient(45deg, rgba(255,255,255,0.1) 25%, transparent 25%),
+        linear-gradient(-45deg, rgba(255,255,255,0.1) 25%, transparent 25%);
+      background-size: 20px 20px;
+      opacity: 0.1;
+      pointer-events: none;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+      font-family: 'Inter', 'SF Pro Display', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+      position: relative;
+      z-index: 1;
+    }
+    header p {
+      font-size: 1.1rem;
+      margin: 1rem auto 0 auto;
+      color: #fff;
+      font-weight: 400;
+      line-height: 1.6;
+      max-width: 800px;
+      padding: 0 2rem;
+      position: relative;
+      z-index: 1;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    }
+    nav {
+      background: var(--primary);
+      padding: 0.8rem 1rem;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      box-shadow: 0 2px 12px var(--shadow);
+      width: 100%;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+      margin: 0 1.2rem;
+      padding: 0.4rem 0.2rem;
+      border-bottom: 2px solid transparent;
+      transition: all 0.3s ease;
+      position: relative;
+      font-family: 'Inter', 'SF Pro Text', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    }
+    nav a.active, nav a:hover {
+      color: var(--accent);
+    }
+    nav a::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background: var(--accent);
+      transform: scaleX(0);
+      transition: transform 0.3s ease;
+    }
+    nav a:hover::after, nav a.active::after {
+      transform: scaleX(1);
+    }
+    main {
+      width: 100%;
+      margin: 0;
+      padding: 2.2rem;
+      background: var(--card);
+      min-height: calc(100vh - 200px);
+      overflow-x: hidden;
+      box-sizing: border-box;
+    }
+    h2 {
+      color: var(--primary);
+      border-bottom: none;
+      padding-bottom: 0;
+      margin-bottom: 0;
+      font-weight: 700;
+      text-align: center;
+      font-size: 2rem;
+      font-family: 'Inter', 'SF Pro Display', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    }
+    h3 {
+      color: var(--secondary);
+      margin: 1.5rem 0 1rem 0;
+      font-weight: 600;
+      font-family: 'Inter', 'SF Pro Display', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    }
+    .section {
+      max-width: 1400px;
+      margin: 0 auto 2.2rem auto;
+      padding: 2.5rem;
+      background: var(--card);
+      box-shadow: 0 4px 24px var(--shadow);
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+      backdrop-filter: blur(10px);
+    }
+    .section::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, rgba(74,78,105,0.05) 0%, rgba(154,140,152,0.05) 100%);
+      z-index: -1;
+    }
+    .section:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 32px rgba(143,162,183,0.2);
+    }
+    ul, ol {
+      margin: 0.5rem 0 0.5rem 1.2rem;
+      padding-left: 1.1rem;
+    }
+    li {
+      margin-bottom: 0.5rem;
+      line-height: 1.7;
+    }
+    .keyword-list li {
+      color: var(--primary);
+      border-left: 3px solid var(--accent);
+      padding-left: 1.2rem;
+      margin-bottom: 1rem;
+      transition: all 0.3s ease;
+    }
+    .keyword-list li:hover {
+      transform: translateX(5px);
+      background: rgba(255,190,136,0.1);
+    }
+    .keyword-list span {
+      font-weight: 400;
+      color: var(--text);
+      display: block;
+      margin-left: 0.7rem;
+    }
+    .industry-card {
+      max-width: 1000px;
+      margin: 0 auto 1.4rem auto;
+      background: linear-gradient(135deg, var(--highlight) 0%, #D8C5E5 100%);
+      border-left: 4px solid var(--secondary);
+      padding: 1.2rem 1.5rem;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+    }
+    .industry-card:hover {
+      transform: translateX(5px);
+      box-shadow: 0 4px 16px rgba(143,162,183,0.15);
+    }
+    .industry-card::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 3px;
+      background: linear-gradient(90deg, var(--accent), var(--secondary));
+      transform: scaleX(0);
+      transition: transform 0.3s ease;
+    }
+    .industry-card:hover::after {
+      transform: scaleX(1);
+    }
+    .video-embed {
+      max-width: 100%;
+      width: 100%;
+      margin: 0;
+      display: block;
+      border-radius: 0;
+      box-shadow: none;
+      overflow: hidden;
+      position: relative;
+      padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+      height: 0;
+      background: transparent;
+    }
+    .video-embed video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+      background: transparent;
+    }
+    .case-block {
+      background: var(--background);
+      border-left: 4px solid var(--secondary);
+      padding: 1.2rem 1.5rem;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+    }
+    .case-block:hover {
+      transform: translateX(5px);
+      box-shadow: 0 4px 16px rgba(143,162,183,0.15);
+    }
+    .resource-list li {
+      margin-bottom: 0.6rem;
+      word-break: break-all;
+    }
+    .resource-list a {
+      color: var(--primary);
+      text-decoration: none;
+      border-bottom: 1px dashed var(--primary);
+      transition: all 0.3s ease;
+    }
+    .resource-list a:hover {
+      color: var(--accent);
+      border-bottom: 1px solid var(--accent);
+    }
+    .survey-block {
+      background: linear-gradient(135deg, var(--highlight) 0%, #D8C5E5 100%);
+      border-left: 4px solid var(--primary);
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(232,215,241,0.2);
+      margin-bottom: 1.5rem;
+    }
+    .survey-block label {
+      display: block;
+      margin-bottom: 0.7rem;
+      font-weight: 500;
+      color: var(--secondary);
+    }
+    .survey-block input[type="radio"], .survey-block input[type="checkbox"] {
+      margin-right: 0.5em;
+    }
+    .survey-slider {
+      width: 100%;
+      margin: 0.7rem 0;
+    }
+    .slider-labels {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.97rem;
+      color: var(--secondary);
+    }
+    .btn {
+      background: var(--gradient-accent);
+      color: var(--text);
+      border: none;
+      padding: 0.8rem 1.5rem;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: 600;
+      margin-top: 1.2rem;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 2px 8px rgba(255,190,136,0.3);
+      position: relative;
+      overflow: hidden;
+    }
+    .btn::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+      transition: 0.5s;
+    }
+    .btn:hover::before {
+      left: 100%;
+    }
+    .btn:hover {
+      background: var(--gradient-secondary);
+      color: #fff;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(212,175,55,0.4);
+    }
+    @media (max-width: 1200px) {
+      .section {
+        margin: 0 2rem 2.2rem 2rem;
+        padding: 2rem;
+      }
+      .industry-grid {
+        padding: 0 1rem;
+      }
+    }
+    @media (max-width: 700px) {
+      main {
+        padding: 1rem;
+      }
+      .section {
+        margin: 0 1rem 2.2rem 1rem;
+        padding: 1.5rem;
+      }
+      .industry-grid {
+        grid-template-columns: 1fr;
+        padding: 0 0.5rem;
+      }
+      .keyword-grid {
+        grid-template-columns: 1fr;
+      }
+      .creative-grid {
+        grid-template-columns: 1fr;
+      }
+      .research-grid {
+        grid-template-columns: 1fr;
+      }
+      .concern-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    /* 添加下拉菜单样式 */
+    .nav-dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background: var(--gradient-primary);
+      min-width: 160px;
+      box-shadow: 0 8px 32px rgba(143,162,183,0.2);
+      z-index: 1;
+      border-radius: 0 0 12px 12px;
+      border: 1px solid var(--border);
+      animation: slideDown 0.3s ease-out;
+    }
+    .dropdown-content a {
+      color: #fff;
+      padding: 0.8rem 1.2rem;
+      text-decoration: none;
+      display: block;
+      font-size: 0.95rem;
+      transition: all 0.3s ease;
+      position: relative;
+    }
+    .dropdown-content a::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 3px;
+      background: var(--accent);
+      transform: scaleY(0);
+      transition: transform 0.3s ease;
+    }
+    .dropdown-content a:hover::before {
+      transform: scaleY(1);
+    }
+    .dropdown-content a:last-child {
+      border-bottom: none;
+    }
+    .dropdown-content a:hover {
+      background: var(--accent);
+      color: var(--text);
+      padding-left: 1.5rem;
+    }
+    .nav-dropdown:hover .dropdown-content {
+      display: block;
+    }
+    @keyframes slideDown {
+      from { 
+        opacity: 0;
+        transform: translateY(-10px);
+      }
+      to { 
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    /* 添加返回导航栏按钮样式 */
+    .back-to-nav {
+      background: var(--gradient-primary);
+      box-shadow: 0 4px 12px rgba(143,162,183,0.2);
+      transition: all 0.3s ease;
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background: var(--primary);
+      color: #fff;
+      padding: 0.8rem 1.5rem;
+      border-radius: 8px;
+      font-weight: 600;
+      text-decoration: none;
+      font-size: 0.9rem;
+      display: none;
+      z-index: 1000;
+    }
+    .back-to-nav:hover {
+      background: var(--gradient-accent);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 16px rgba(255,190,136,0.4);
+    }
+    @media (max-width: 700px) {
+      .back-to-nav {
+        top: 10px;
+        right: 10px;
+      }
+    }
+    /* 添加新的样式 */
+    .page-transition {
+      animation: fadeIn 0.5s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from { 
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to { 
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    .section {
+      position: relative;
+      overflow: hidden;
+    }
+    .section::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, rgba(74,78,105,0.05) 0%, rgba(154,140,152,0.05) 100%);
+      z-index: -1;
+    }
+    .keyword-list li {
+      transition: transform 0.3s ease;
+    }
+    .keyword-list li:hover {
+      transform: translateX(10px);
+    }
+    .industry-card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      position: relative;
+      overflow: hidden;
+    }
+    .industry-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 24px rgba(90,90,120,0.15);
+    }
+    .industry-card::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 3px;
+      background: linear-gradient(90deg, var(--accent), var(--secondary));
+      transform: scaleX(0);
+      transition: transform 0.3s ease;
+    }
+    .industry-card:hover::after {
+      transform: scaleX(1);
+    }
+    .nav-dropdown .dropdown-content {
+      animation: slideDown 0.3s ease-out;
+    }
+    @keyframes slideDown {
+      from { 
+        opacity: 0;
+        transform: translateY(-10px);
+      }
+      to { 
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    .page-title {
+      position: relative;
+      padding-bottom: 15px;
+      margin-bottom: 30px;
+    }
+    .page-title::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 60px;
+      height: 3px;
+      background: linear-gradient(90deg, var(--accent), var(--secondary));
+    }
+    /* 添加新的样式 */
+    .industry-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+      gap: 3rem;
+      margin-top: 2rem;
+      max-width: 1400px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0 2rem;
+      box-sizing: border-box;
+    }
+    .industry-item {
+      background: var(--card);
+      border-radius: 12px;
+      padding: 0;
+      box-shadow: 0 4px 16px var(--shadow);
+      transition: all 0.3s ease;
+      border: 1px solid var(--border);
+      overflow: hidden;
+    }
+    .industry-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 24px var(--shadow);
+    }
+    .company-header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0;
+      margin-bottom: 0;
+    }
+    .company-logo {
+      width: 100%;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+    }
+    .company-logo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .industry-item h4 {
+      color: var(--primary);
+      margin: 1rem 0;
+      font-size: 1.3rem;
+      text-align: center;
+      padding: 0 1rem;
+    }
+    .industry-item p {
+      color: var(--text);
+      margin: 0;
+      line-height: 1.6;
+      text-align: center;
+      padding: 0 1rem 1rem 1rem;
+    }
+    .company-link {
+      display: inline-block;
+      margin: 1rem;
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+    .company-link:hover {
+      color: var(--accent);
+    }
+    @media (max-width: 768px) {
+      .industry-grid {
+        grid-template-columns: 1fr;
+        padding: 0 1rem;
+      }
+      .company-logo {
+        height: 250px;
+      }
+    }
+    /* 添加新的样式 */
+    .section-subtitle, .concept-section-title {
+      color: var(--secondary);
+      font-size: 1.4rem;
+      margin: 0.5rem 0 2rem 0;
+      text-align: center;
+      font-weight: 600;
+      position: relative;
+      padding-bottom: 1rem;
+      font-family: 'Inter', 'SF Pro Display', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    }
+    .section-subtitle::after, .concept-section-title::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 60px;
+      height: 2px;
+      background: linear-gradient(90deg, var(--accent), var(--secondary));
+    }
+    /* 添加新的样式 */
+    .tech-intro {
+      background: linear-gradient(135deg, rgba(232,215,241,0.1) 0%, rgba(180,200,169,0.1) 100%);
+      padding: 2rem;
+      border-radius: 12px;
+      margin-bottom: 2rem;
+      border-left: 4px solid var(--secondary);
+    }
+    .tech-intro p {
+      margin-bottom: 1.5rem;
+      line-height: 1.8;
+    }
+    .tech-intro p:last-child {
+      margin-bottom: 0;
+    }
+    .tech-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    .tech-item {
+      background: var(--card);
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px var(--shadow);
+      border: 1px solid var(--border);
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+    }
+    .tech-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 12px var(--shadow);
+    }
+    .tech-item h4 {
+      color: var(--primary);
+      margin: 0 0 1rem 0;
+      font-size: 1.2rem;
+      font-weight: 600;
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 0.5rem;
+      line-height: 1.5;
+    }
+    .tech-item p {
+      margin: 0;
+      line-height: 1.6;
+      color: var(--text);
+    }
+    .tech-section-title {
+      color: var(--secondary);
+      font-size: 1.4rem;
+      margin: 2rem 0 1rem 0;
+      text-align: center;
+      position: relative;
+      padding-bottom: 0.5rem;
+    }
+    .tech-section-title::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 60px;
+      height: 2px;
+      background: linear-gradient(90deg, var(--accent), var(--secondary));
+    }
+    /* 添加新的样式 */
+    .concept-intro {
+      background: linear-gradient(135deg, rgba(232,215,241,0.1) 0%, rgba(180,200,169,0.1) 100%);
+      padding: 2rem;
+      border-radius: 12px;
+      margin: 2rem auto;
+      border-left: 4px solid var(--secondary);
+      display: flex;
+      gap: 2rem;
+      align-items: center;
+      max-width: 1000px; /* 限制最大宽度 */
+    }
+
+    .concept-text {
+      flex: 1.2;
+      position: relative;
+      z-index: 1;
+      font-size: 0.95rem; /* 稍微减小字体大小 */
+      line-height: 1.6;
+    }
+
+    .concept-image {
+      flex: 0.8; /* 减小图片区域的比例 */
+      position: relative;
+      z-index: 1;
+    }
+
+    .concept-image img {
+      max-width: 90%; /* 稍微缩小图片 */
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .concept-text p {
+      margin-bottom: 1rem;
+    }
+
+    .concept-text p:last-child {
+      margin-bottom: 0;
+    }
+
+    @media (max-width: 768px) {
+      .concept-intro {
+        flex-direction: column;
+        padding: 1.5rem;
+      }
+      .concept-text {
+        padding-right: 0;
+        margin-bottom: 1.5rem;
+      }
+      .concept-image img {
+        max-width: 100%;
+      }
+    }
+    .concept-intro::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 40%;
+      height: 100%;
+      background: url('./images/concept/digital-afterlife.jpg') no-repeat center/cover;
+      opacity: 0.1;
+      z-index: 0;
+    }
+    .concept-text {
+      flex: 1;
+      position: relative;
+      z-index: 1;
+    }
+    .concept-intro p {
+      margin-bottom: 1.5rem;
+      line-height: 1.8;
+    }
+    .concept-intro p:last-child {
+      margin-bottom: 0;
+    }
+    .concept-intro p b {
+      color: var(--primary);
+      font-size: 1.2rem;
+      display: block;
+      margin-bottom: 0.8rem;
+    }
+    .keyword-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+      box-sizing: border-box;
+    }
+    .keyword-item {
+      background: var(--card);
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px var(--shadow);
+      border: 1px solid var(--border);
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+    }
+    .keyword-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 12px var(--shadow);
+    }
+    .keyword-item h4 {
+      color: var(--primary);
+      margin: 0 0 1rem 0;
+      font-size: 1.2rem;
+      font-weight: 600;
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 0.5rem;
+      line-height: 1.5;
+    }
+    .keyword-item p {
+      margin: 0;
+      line-height: 1.6;
+      color: var(--text);
+    }
+    .keyword-item:nth-child(1) .keyword-image { background-image: url('./images/digital-afterlife.jpg'); }
+    .keyword-item:nth-child(2) .keyword-image { background-image: url('./images/ai-avatar.jpg'); }
+    .keyword-item:nth-child(3) .keyword-image { background-image: url('./images/chatbot.jpg'); }
+    .keyword-item:nth-child(4) .keyword-image { background-image: url('./images/concept/voice-clone.jpg'); }
+    .keyword-item:nth-child(5) .keyword-image { background-image: url('./images/concept/hologram.jpg'); }
+    .keyword-item:nth-child(6) .keyword-image { background-image: url('./images/concept/memorial.jpg'); }
+    .keyword-item:nth-child(7) .keyword-image { background-image: url('./images/concept/vr.jpg'); }
+    .keyword-item:nth-child(8) .keyword-image { background-image: url('./images/concept/posthumous.jpg'); }
+    .keyword-item:nth-child(9) .keyword-image { background-image: url('./images/concept/memory.jpg'); }
+    .keyword-item:nth-child(10) .keyword-image { background-image: url('./images/concept/ethics.jpg'); }
+    .concept-section-title {
+      color: var(--secondary);
+      font-size: 1.4rem;
+      margin: 2rem 0 1rem 0;
+      text-align: center;
+      position: relative;
+      padding-bottom: 0.5rem;
+    }
+    .concept-section-title::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 60px;
+      height: 2px;
+      background: linear-gradient(90deg, var(--accent), var(--secondary));
+    }
+    @media (max-width: 768px) {
+      .concept-intro {
+        flex-direction: column;
+      }
+      .concept-intro::before {
+        width: 100%;
+        height: 200px;
+      }
+      .keyword-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    .creative-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+      box-sizing: border-box;
+    }
+    .creative-item {
+      background: var(--card);
+      border-radius: 12px;
+      box-shadow: 0 4px 16px var(--shadow);
+      border: 1px solid var(--border);
+      overflow: hidden;
+    }
+    .creative-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 24px var(--shadow);
+    }
+    .creative-content {
+      padding: 1.5rem;
+    }
+    .creative-content h4 {
+      color: var(--primary);
+      margin: 0 0 1rem 0;
+      font-size: 1.2rem;
+      font-weight: 600;
+    }
+    .creative-content p {
+      margin: 0;
+      line-height: 1.6;
+      color: var(--text);
+    }
+    .video-container {
+      position: relative;
+      width: 100%;
+      padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+      height: 0;
+      overflow: hidden;
+      box-sizing: border-box;
+    }
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+    @media (max-width: 768px) {
+      .creative-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    .research-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    .research-item {
+      display: flex;
+      gap: 2rem;
+      margin-bottom: 3rem;
+      padding: 2rem;
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .research-image {
+      flex: 0 0 300px;
+    }
+
+    .research-content {
+      flex: 1;
+    }
+
+    @media (max-width: 768px) {
+      .research-item {
+        flex-direction: column;
+      }
+      
+      .research-image {
+        flex: 0 0 auto;
+      }
+    }
+    /* 添加新的样式 */
+    .concern-section {
+      background: linear-gradient(135deg, rgba(232,215,241,0.1) 0%, rgba(180,200,169,0.1) 100%);
+      padding: 2rem;
+      border-radius: 12px;
+      margin-bottom: 2rem;
+      border-left: 4px solid var(--secondary);
+      position: relative;
+      overflow: hidden;
+    }
+    .concern-section::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 40%;
+      height: 100%;
+      background: url('images/concern-bg.jpg') no-repeat center/cover;
+      opacity: 0.1;
+      z-index: 0;
+    }
+    .concern-text {
+      position: relative;
+      z-index: 1;
+    }
+    .concern-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+      box-sizing: border-box;
+    }
+    .concern-item {
+      background: var(--card);
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px var(--shadow);
+      border: 1px solid var(--border);
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+    }
+    .concern-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 12px var(--shadow);
+    }
+    .concern-item::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 4px;
+      background: var(--gradient-accent);
+      transform: scaleX(0);
+      transition: transform 0.3s ease;
+    }
+    .concern-item:hover::before {
+      transform: scaleX(1);
+    }
+    .concern-item h4 {
+      color: var(--primary);
+      margin: 0 0 1rem 0;
+      font-size: 1.2rem;
+      font-weight: 600;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid var(--border);
+      font-family: 'Inter', 'SF Pro Display', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+      line-height: 1.5;
+    }
+    .concern-item p {
+      margin: 0;
+      line-height: 1.6;
+      color: var(--text);
+      font-family: 'Inter', 'SF Pro Text', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    }
+    .concern-item ul {
+      margin: 1rem 0;
+      padding-left: 1.2rem;
+    }
+    .concern-item li {
+      margin-bottom: 0.5rem;
+      line-height: 1.6;
+      color: var(--text);
+      font-family: 'Inter', 'SF Pro Text', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    }
+    .survey-container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem;
+      background: rgba(255, 255, 255, 0.95);
+      border-radius: 24px;
+      box-shadow: 0 4px 24px rgba(42,157,143,0.1);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .survey-container::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, rgba(42,157,143,0.05) 0%, rgba(38,70,83,0.05) 100%);
+      z-index: 1;
+    }
+
+    .survey-container > * {
+      position: relative;
+      z-index: 2;
+    }
+
+    .survey-question {
+      background: rgba(255, 255, 255, 0.8);
+      border-radius: 16px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      border: 1px solid rgba(42,157,143,0.1);
+      box-shadow: 0 4px 12px rgba(42,157,143,0.1);
+      backdrop-filter: blur(5px);
+      position: relative;
+      overflow: hidden;
+      transition: all 0.3s ease;
+    }
+
+    .survey-question::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 4px;
+      height: 100%;
+      background: linear-gradient(to bottom, var(--primary), var(--accent));
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .survey-question:hover {
+      transform: translateX(5px);
+      box-shadow: 0 6px 16px rgba(42,157,143,0.15);
+    }
+
+    .survey-question:hover::before {
+      opacity: 1;
+    }
+
+    .survey-question h3 {
+      color: var(--secondary);
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid rgba(42,157,143,0.1);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .survey-question h3::before {
+      content: 'Q';
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 24px;
+      height: 24px;
+      background: var(--primary);
+      color: white;
+      border-radius: 50%;
+      font-size: 0.9rem;
+      font-weight: bold;
+    }
+
+    .survey-options {
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 12px;
+      padding: 1rem;
+      margin-top: 1rem;
+      border: 1px solid rgba(42,157,143,0.1);
+      display: grid;
+      gap: 0.5rem;
+    }
+
+    .survey-options label {
+      display: flex;
+      align-items: center;
+      padding: 0.5rem;
+      margin-bottom: 0.3rem;
+      cursor: pointer;
+      line-height: 1.4;
+      border-radius: 8px;
+      transition: all 0.2s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .survey-options label:hover {
+      background: rgba(42,157,143,0.05);
+    }
+
+    .survey-options label::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, rgba(42,157,143,0.1), transparent);
+      opacity: 0;
+      transition: opacity 0.2s ease;
+    }
+
+    .survey-options label:hover::before {
+      opacity: 1;
+    }
+
+    .survey-options input[type="radio"],
+    .survey-options input[type="checkbox"] {
+      margin-right: 0.8rem;
+      width: 18px;
+      height: 18px;
+      accent-color: var(--primary);
+    }
+
+    .survey-options input[type="text"] {
+      width: 100%;
+      padding: 0.8rem;
+      margin-top: 0.5rem;
+      border: 1px solid rgba(42,157,143,0.2);
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.8);
+      transition: all 0.2s ease;
+    }
+
+    .survey-options input[type="text"]:focus {
+      outline: none;
+      border-color: var(--primary);
+      box-shadow: 0 0 0 2px rgba(42,157,143,0.1);
+    }
+
+    .other-option {
+      margin-top: 0.8rem;
+      padding-top: 0.8rem;
+      border-top: 1px dashed rgba(42,157,143,0.2);
+    }
+
+    .btn {
+      background: var(--gradient-accent);
+      color: var(--text);
+      border: none;
+      padding: 0.8rem 1.5rem;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: 600;
+      margin-top: 1.2rem;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 2px 8px rgba(255,190,136,0.3);
+      position: relative;
+      overflow: hidden;
+    }
+    .btn::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+      transition: 0.5s;
+    }
+    .btn:hover::before {
+      left: 100%;
+    }
+    .btn:hover {
+      background: var(--gradient-secondary);
+      color: #fff;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(212,175,55,0.4);
+    }
+    #survey-result {
+      background: var(--card);
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px var(--shadow);
+      border: 1px solid var(--border);
+      margin-top: 2rem;
+      text-align: center;
+    }
+    #survey-result h3 {
+      color: var(--secondary);
+      margin-bottom: 1rem;
+    }
+    #survey-answers {
+      text-align: left;
+      padding: 1rem;
+      background: linear-gradient(135deg, rgba(232,215,241,0.1) 0%, rgba(180,200,169,0.1) 100%);
+      border-radius: 8px;
+    }
+    @media (max-width: 768px) {
+      .concern-grid {
+        grid-template-columns: 1fr;
+      }
+      .concern-section {
+        padding: 1.5rem;
+      }
+      .survey-container {
+        padding: 1.5rem;
+      }
+    }
+    .comparison-table {
+      width: 90%;
+      max-width: 1000px;
+      border-collapse: collapse;
+      margin: 2rem auto;
+      background: white;
+      box-shadow: 0 4px 24px var(--shadow);
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    .comparison-table th, 
+    .comparison-table td {
+      border: 1px solid #4472C4;
+    }
+    .comparison-table th {
+      background: linear-gradient(135deg, #4472C4 0%, #2B579A 100%);
+      color: white;
+      padding: 0.8rem;
+      text-align: center;
+      font-weight: 600;
+      font-size: 1rem;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    }
+    .comparison-table td {
+      padding: 0.6rem 0.8rem;
+      text-align: center;
+      background: #E6E6FA;
+      font-size: 0.95rem;
+    }
+    .comparison-table td:first-child {
+      background: #D9D9F3;
+      font-weight: 500;
+    }
+    .check-mark {
+      color: #4472C4;
+      font-weight: bold;
+    }
+    @media (max-width: 768px) {
+      .comparison-table {
+        width: 100%;
+        margin: 1rem 0;
+      }
+      .comparison-table th,
+      .comparison-table td {
+        padding: 0.5rem;
+        font-size: 0.85rem;
+      }
+    }
+    /* 添加 Concept 页面的新样式 */
+    #page-concept .section {
+      background: linear-gradient(135deg, rgba(255,255,255,0.95) 0%, rgba(240,247,244,0.95) 100%);
+      border: none;
+      box-shadow: 0 8px 32px rgba(42,157,143,0.15);
+      transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    #page-concept .concept-intro {
+      background: linear-gradient(135deg, rgba(42,157,143,0.05) 0%, rgba(38,70,83,0.05) 100%);
+      border-radius: 16px;
+      padding: 2.5rem;
+      margin: 2rem 0;
+      border-left: 4px solid var(--primary);
+      position: relative;
+      overflow: hidden;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 4px 24px rgba(42,157,143,0.1);
+    }
+
+    #page-concept .concept-intro::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 200px;
+      height: 200px;
+      background: radial-gradient(circle, var(--accent) 0%, transparent 70%);
+      opacity: 0.1;
+      border-radius: 50%;
+      transform: translate(30%, -30%);
+    }
+
+    #page-concept .concept-intro p {
+      position: relative;
+      z-index: 1;
+      margin-bottom: 1.2rem;
+      line-height: 1.8;
+      color: var(--text);
+      text-shadow: 0 1px 1px rgba(255,255,255,0.8);
+    }
+
+    #page-concept .concept-intro p:last-child {
+      margin-bottom: 0;
+    }
+
+    #page-concept .concept-intro p b {
+      color: var(--primary);
+      font-size: 1.2rem;
+      display: block;
+      margin-bottom: 0.8rem;
+    }
+
+    #page-concept .keyword-grid {
+      gap: 2rem;
+      padding: 1rem;
+    }
+
+    #page-concept .keyword-item {
+      background: rgba(255,255,255,0.9);
+      border-radius: 16px;
+      padding: 2rem;
+      box-shadow: 0 4px 20px rgba(42,157,143,0.1);
+      border: 1px solid rgba(42,157,143,0.1);
+      transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+      position: relative;
+      overflow: hidden;
+    }
+
+    #page-concept .keyword-item::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 4px;
+      background: linear-gradient(90deg, var(--primary), var(--accent));
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.4s ease;
+    }
+
+    #page-concept .keyword-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 32px rgba(42,157,143,0.15);
+    }
+
+    #page-concept .keyword-item:hover::before {
+      transform: scaleX(1);
+    }
+
+    #page-concept .keyword-item h4 {
+      color: var(--primary);
+      font-size: 1.3rem;
+      margin-bottom: 1.2rem;
+      padding-bottom: 0.8rem;
+      border-bottom: 2px solid rgba(42,157,143,0.1);
+      position: relative;
+    }
+
+    #page-concept .keyword-item p {
+      color: var(--text);
+      line-height: 1.8;
+      margin-bottom: 1rem;
+    }
+
+    #page-concept .keyword-item p:last-child {
+      margin-bottom: 0;
+      font-style: italic;
+      color: var(--secondary);
+      font-size: 0.95rem;
+    }
+
+    #page-concept .comparison-table {
+      margin: 3rem auto;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 8px 32px rgba(42,157,143,0.15);
+      border: none;
+      background: white;
+    }
+
+    #page-concept .comparison-table th {
+      background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+      color: white;
+      padding: 1.2rem;
+      font-size: 1.1rem;
+      border: none;
+    }
+
+    #page-concept .comparison-table td {
+      padding: 1rem;
+      border: 1px solid rgba(42,157,143,0.1);
+      transition: background-color 0.3s ease;
+    }
+
+    #page-concept .comparison-table tr:hover td {
+      background: rgba(42,157,143,0.05);
+    }
+
+    #page-concept .check-mark {
+      color: var(--primary);
+      font-size: 1.2rem;
+      text-shadow: 0 1px 2px rgba(42,157,143,0.2);
+    }
+
+    #page-concept h2 {
+      background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 2.2rem;
+      margin-bottom: 1rem;
+      text-align: center;
+      position: relative;
+      padding-bottom: 1rem;
+    }
+
+    #page-concept h2::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 80px;
+      height: 3px;
+      background: linear-gradient(90deg, var(--primary), var(--secondary));
+      border-radius: 3px;
+    }
+
+    #page-concept .section-subtitle {
+      color: var(--secondary);
+      font-size: 1.4rem;
+      text-align: center;
+      margin: 1.5rem 0 2.5rem 0;
+      position: relative;
+      padding-bottom: 1rem;
+    }
+
+    #page-concept .section-subtitle::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 60px;
+      height: 2px;
+      background: linear-gradient(90deg, var(--accent), var(--secondary));
+    }
+
+    @media (max-width: 768px) {
+      #page-concept .concept-intro {
+        padding: 1.5rem;
+      }
+      
+      #page-concept .keyword-grid {
+        gap: 1.5rem;
+        padding: 0.5rem;
+      }
+      
+      #page-concept .keyword-item {
+        padding: 1.5rem;
+      }
+      
+      #page-concept .comparison-table {
+        margin: 2rem auto;
+      }
+      
+      #page-concept .comparison-table th,
+      #page-concept .comparison-table td {
+        padding: 0.8rem;
+        font-size: 0.9rem;
+      }
+    }
+
+    #page-concept .keyword-video {
+      width: 100%;
+      border-radius: 12px;
+      margin-bottom: 1.5rem;
+      overflow: hidden;
+      position: relative;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    #page-concept .keyword-video iframe {
+      width: 100%;
+      height: 200px;
+      border: none;
+      border-radius: 12px;
+    }
+
+    .timeline-container {
+      max-width: 1200px;
+      margin: 3rem auto;
+      padding: 0 2rem;
+    }
+
+    .timeline {
+      position: relative;
+      padding: 2rem 0;
+    }
+
+    .timeline::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 4px;
+      height: 100%;
+      background: linear-gradient(to bottom, var(--primary), var(--accent));
+      border-radius: 2px;
+    }
+
+    .timeline-item {
+      position: relative;
+      margin-bottom: 3rem;
+      width: 50%;
+      padding: 0 2rem;
+    }
+
+    .timeline-item:nth-child(odd) {
+      left: 0;
+      text-align: right;
+    }
+
+    .timeline-item:nth-child(even) {
+      left: 50%;
+      text-align: left;
+    }
+
+    .timeline-content {
+      background: var(--card);
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px var(--shadow);
+      border: 1px solid var(--border);
+      transition: all 0.3s ease;
+    }
+
+    .timeline-content:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 24px var(--shadow);
+    }
+
+    .timeline-content h4 {
+      color: var(--primary);
+      margin: 0 0 1rem 0;
+      font-size: 1.2rem;
+      font-weight: 600;
+    }
+
+    .timeline-content p {
+      color: var(--secondary);
+      margin: 0 0 0.8rem 0;
+      font-weight: 500;
+    }
+
+    .timeline-content ul {
+      margin: 0;
+      padding-left: 1rem;
+    }
+
+    .timeline-content li {
+      color: var(--text);
+      margin-bottom: 0.5rem;
+      line-height: 1.5;
+    }
+
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      top: 1.5rem;
+      width: 20px;
+      height: 20px;
+      background: var(--accent);
+      border-radius: 50%;
+      box-shadow: 0 0 0 4px var(--background);
+    }
+
+    .timeline-item:nth-child(odd)::before {
+      right: -10px;
+    }
+
+    .timeline-item:nth-child(even)::before {
+      left: -10px;
+    }
+
+    @media (max-width: 768px) {
+      .timeline::before {
+        left: 2rem;
+      }
+
+      .timeline-item {
+        width: 100%;
+        padding-left: 4rem;
+        padding-right: 1rem;
+        text-align: left;
+      }
+
+      .timeline-item:nth-child(odd),
+      .timeline-item:nth-child(even) {
+        left: 0;
+      }
+
+      .timeline-item::before {
+        left: 2rem;
+        right: auto;
+      }
+    }
+
+    .flowchart-container {
+      max-width: 1400px;
+      margin: 3rem auto;
+      padding: 0 2rem;
+      overflow-x: auto;
+    }
+
+    .flowchart {
+      display: flex;
+      justify-content: space-between;
+      align-items: stretch;
+      min-width: 1200px;
+      position: relative;
+      padding: 2rem 0;
+    }
+
+    .flowchart::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: linear-gradient(to right, var(--primary), var(--accent));
+      z-index: 1;
+    }
+
+    .flowchart-item {
+      position: relative;
+      flex: 1;
+      margin: 0 1rem;
+      z-index: 2;
+    }
+
+    .flowchart-content {
+      background: var(--card);
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px var(--shadow);
+      border: 1px solid var(--border);
+      transition: all 0.3s ease;
+      text-align: center;
+    }
+
+    .flowchart-content:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 24px var(--shadow);
+    }
+
+    .flowchart-content h4 {
+      color: var(--primary);
+      margin: 0 0 1rem 0;
+      font-size: 1.2rem;
+      font-weight: 600;
+    }
+
+    .flowchart-content p {
+      color: var(--secondary);
+      margin: 0 0 0.8rem 0;
+      font-weight: 500;
+    }
+
+    .flowchart-content ul {
+      margin: 0;
+      padding-left: 1rem;
+      text-align: left;
+    }
+
+    .flowchart-content li {
+      color: var(--text);
+      margin-bottom: 0.5rem;
+      line-height: 1.5;
+      font-size: 0.9rem;
+    }
+
+    .flowchart-arrow {
+      position: absolute;
+      top: 50%;
+      right: -1.5rem;
+      transform: translateY(-50%);
+      color: var(--primary);
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    @media (max-width: 768px) {
+      .flowchart-container {
+        padding: 0 1rem;
+      }
+
+      .flowchart {
+        min-width: 1000px;
+      }
+
+      .flowchart-content {
+        padding: 1rem;
+      }
+
+      .flowchart-content li {
+        font-size: 0.8rem;
+      }
+    }
+
+    .tech-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2.5rem;
+      margin: 2rem auto;
+      max-width: 1400px;
+      padding: 0 2rem;
+    }
+    
+    .tech-item {
+      background: var(--card);
+      border-radius: 12px;
+      box-shadow: 0 4px 24px var(--shadow);
+      overflow: hidden;
+      transition: all 0.3s ease;
+      border: 1px solid var(--border);
+    }
+    
+    .tech-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 32px var(--shadow);
+    }
+    
+    .tech-image {
+      position: relative;
+      overflow: hidden;
+      height: 220px;
+    }
+    
+    .tech-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+    
+    .tech-item:hover .tech-image img {
+      transform: scale(1.05);
+    }
+    
+    .tech-content {
+      padding: 2rem;
+      background: linear-gradient(135deg, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0.95) 100%);
+    }
+    
+    .tech-content h4 {
+      color: var(--primary);
+      margin: 0 0 0.5rem 0;
+      font-size: 1.4rem;
+      font-weight: 600;
+      position: relative;
+      padding-bottom: 0.8rem;
+    }
+    
+    .tech-content h4::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 60px;
+      height: 3px;
+      background: linear-gradient(90deg, var(--primary), var(--accent));
+      border-radius: 3px;
+    }
+    
+    .tech-content p {
+      margin: 1rem 0 0 0;
+      line-height: 1.8;
+      color: var(--text);
+      font-size: 0.95rem;
+    }
+    
+    .tech-image::before {
+      content: attr(data-title);
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      background: rgba(255,255,255,0.9);
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: var(--primary);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    
+    @media (max-width: 768px) {
+      .tech-list {
+        grid-template-columns: 1fr;
+        padding: 0 1rem;
+        gap: 2rem;
+      }
+      
+      .tech-content {
+        padding: 1.5rem;
+      }
+      
+      .tech-content h4 {
+        font-size: 1.2rem;
+      }
+    }
+
+    .tech-container {
+      position: relative;
+      max-width: 1400px;
+      margin: 2rem auto;
+      padding: 0 4rem;
+    }
+
+    .tech-list {
+      display: flex;
+      gap: 2.5rem;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+      padding: 1rem 0;
+    }
+    
+    .tech-item {
+      flex: 0 0 calc(33.333% - 1.67rem);
+      min-width: 300px;
+      background: var(--card);
+      border-radius: 12px;
+      box-shadow: 0 4px 24px var(--shadow);
+      overflow: hidden;
+      transition: all 0.3s ease;
+      border: 1px solid var(--border);
+    }
+    
+    .scroll-button {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 3rem;
+      height: 3rem;
+      background: var(--card);
+      border: none;
+      border-radius: 50%;
+      box-shadow: 0 4px 12px var(--shadow);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 10;
+      transition: all 0.3s ease;
+    }
+
+    .scroll-button:hover {
+      background: var(--primary);
+      color: white;
+      transform: translateY(-50%) scale(1.1);
+    }
+
+    .scroll-left {
+      left: 0;
+    }
+
+    .scroll-right {
+      right: 0;
+    }
+
+    .scroll-button::before {
+      content: '';
+      width: 0.8rem;
+      height: 0.8rem;
+      border-style: solid;
+      border-width: 2px 2px 0 0;
+      display: inline-block;
+      transform: rotate(45deg);
+      margin-left: -4px;
+    }
+
+    .scroll-left::before {
+      transform: rotate(-135deg);
+      margin-left: 4px;
+    }
+
+    .market-analysis {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+
+    .market-analysis h3 {
+      color: var(--primary);
+      font-size: 1.5rem;
+      margin: 2rem 0 1rem 0;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid var(--border);
+    }
+
+    .market-analysis h4 {
+      color: var(--secondary);
+      font-size: 1.2rem;
+      margin: 1.5rem 0 0.8rem 0;
+    }
+
+    .market-analysis p {
+      line-height: 1.8;
+      margin-bottom: 1.5rem;
+      color: var(--text);
+    }
+
+    .market-analysis ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    .market-analysis li {
+      margin-bottom: 1rem;
+      padding-left: 1.5rem;
+      position: relative;
+      line-height: 1.6;
+    }
+
+    .market-analysis li::before {
+      content: "•";
+      color: var(--primary);
+      position: absolute;
+      left: 0;
+    }
+
+    .market-analysis strong {
+      color: var(--primary);
+      font-weight: 600;
+    }
+
+    .stage-content,
+    .players-content,
+    .models-content {
+      background: rgba(255, 255, 255, 0.9);
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px var(--shadow);
+      margin-bottom: 2rem;
+    }
+
+    @media (max-width: 768px) {
+      .market-analysis {
+        padding: 1rem;
+      }
+
+      .market-analysis h3 {
+        font-size: 1.3rem;
+      }
+
+      .market-analysis h4 {
+        font-size: 1.1rem;
+      }
+    }
+
+    .survey-options {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      margin: 1rem 0;
+    }
+
+    .survey-options input[type="radio"],
+    .survey-options input[type="checkbox"] {
+      margin-right: 0.5rem;
+    }
+
+    .survey-options input[type="text"] {
+      margin-top: 0.5rem;
+      padding: 0.5rem;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      width: 100%;
+    }
+
+    .survey-insights {
+      margin-top: 2rem;
+      padding: 1.5rem;
+      background: linear-gradient(135deg, rgba(232,215,241,0.1) 0%, rgba(180,200,169,0.1) 100%);
+      border-radius: 8px;
+    }
+
+    .survey-insights ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    .survey-insights li {
+      margin: 0.5rem 0;
+      padding-left: 1.5rem;
+      position: relative;
+    }
+
+    .survey-insights li::before {
+      content: "→";
+      position: absolute;
+      left: 0;
+      color: var(--primary);
+    }
+
+    .survey-question {
+      margin-bottom: 2rem;
+      padding: 1.5rem;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 12px;
+      border: 1px solid rgba(42,157,143,0.1);
+    }
+
+    .survey-question h4 {
+      color: var(--primary);
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .survey-question h4::before {
+      content: attr(data-number);
+      background: var(--primary);
+      color: white;
+      padding: 0.25rem 0.75rem;
+      border-radius: 20px;
+      font-size: 0.9rem;
+      font-weight: 500;
+    }
+
+    .thoughts-input {
+      width: 100%;
+      min-height: 120px;
+      padding: 1rem;
+      border: 1px solid rgba(42,157,143,0.2);
+      border-radius: 8px;
+      background: rgba(255,255,255,0.05);
+      color: var(--text);
+      font-size: 1rem;
+      line-height: 1.6;
+      resize: vertical;
+      transition: all 0.3s ease;
+    }
+
+    .thoughts-input:focus {
+      outline: none;
+      border-color: var(--primary);
+      box-shadow: 0 0 0 2px rgba(42,157,143,0.1);
+    }
+
+    .case-study {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 3rem;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 3rem;
+    }
+
+    .case-content {
+      text-align: center;
+      width: 100%;
+      max-width: 900px;
+    }
+
+    .section-title {
+      color: var(--secondary);
+      font-size: 2.2rem;
+      margin-bottom: 2rem;
+      font-weight: 600;
+      position: relative;
+      padding-bottom: 1rem;
+    }
+
+    .section-title::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 80px;
+      height: 3px;
+      background: linear-gradient(90deg, var(--primary), var(--accent));
+    }
+
+    .case-text {
+      background: rgba(255,255,255,0.05);
+      padding: 2.5rem;
+      border-radius: 16px;
+      border: 1px solid rgba(42,157,143,0.1);
+      box-shadow: 0 4px 24px rgba(42,157,143,0.1);
+    }
+
+    .case-text h3 {
+      color: var(--primary);
+      font-size: 1.8rem;
+      margin-bottom: 1.5rem;
+      line-height: 1.4;
+    }
+
+    .case-text p {
+      color: var(--text);
+      line-height: 1.8;
+      font-size: 1.2rem;
+      margin: 0;
+    }
+
+    .case-video {
+      width: 100%;
+      max-width: 1200px;
+      aspect-ratio: 16/9;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.15);
+    }
+
+    .case-video iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    .ethical-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      margin: 2rem 0;
+    }
+
+    .ethical-item {
+      background: rgba(255,255,255,0.05);
+      border-radius: 16px;
+      padding: 2rem;
+      border: 1px solid rgba(42,157,143,0.1);
+      box-shadow: 0 4px 24px rgba(42,157,143,0.1);
+    }
+
+    .ethical-item h3 {
+      color: var(--primary);
+      font-size: 1.6rem;
+      margin-bottom: 1.5rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid rgba(42,157,143,0.2);
+    }
+
+    .ethical-content h4 {
+      color: var(--secondary);
+      font-size: 1.2rem;
+      margin: 1.5rem 0 0.8rem;
+    }
+
+    .ethical-content p {
+      color: var(--text);
+      line-height: 1.8;
+      margin-bottom: 1rem;
+    }
+
+    .ethical-vs-container {
+      margin: 3rem 0;
+      position: relative;
+    }
+
+    .ethical-vs-header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+      margin-bottom: 3rem;
+    }
+
+    .vs-title {
+      font-size: 1.8rem;
+      font-weight: 600;
+      color: var(--primary);
+      text-align: center;
+      padding: 1rem 2rem;
+      background: linear-gradient(135deg, rgba(42,157,143,0.1) 0%, rgba(38,70,83,0.1) 100%);
+      border-radius: 12px;
+      border: 1px solid rgba(42,157,143,0.2);
+    }
+
+    .vs-divider {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: var(--accent);
+      text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      background: var(--card);
+      padding: 0.5rem 1.5rem;
+      border-radius: 50%;
+      box-shadow: 0 4px 12px rgba(42,157,143,0.2);
+      position: relative;
+      z-index: 2;
+    }
+
+    .ethical-vs-content {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      position: relative;
+    }
+
+    .ethical-vs-content::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 2px;
+      height: 100%;
+      background: linear-gradient(to bottom, var(--primary), var(--accent));
+      opacity: 0.3;
+    }
+
+    .ethical-side {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .ethical-card {
+      background: rgba(255,255,255,0.05);
+      border-radius: 16px;
+      padding: 2rem;
+      border: 1px solid rgba(42,157,143,0.1);
+      box-shadow: 0 4px 24px rgba(42,157,143,0.1);
+      transition: all 0.3s ease;
+    }
+
+    .ethical-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 32px rgba(42,157,143,0.15);
+    }
+
+    .ethical-card h3 {
+      color: var(--primary);
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid rgba(42,157,143,0.2);
+    }
+
+    .ethical-card p {
+      color: var(--text);
+      line-height: 1.8;
+      margin: 0;
+    }
+
+    .left-side .ethical-card {
+      border-right: 4px solid var(--primary);
+    }
+
+    .right-side .ethical-card {
+      border-left: 4px solid var(--accent);
+    }
+
+    @media (max-width: 768px) {
+      .ethical-vs-header {
+        flex-direction: column;
+        gap: 1rem;
+      }
+
+      .vs-title {
+        font-size: 1.5rem;
+      }
+
+      .vs-divider {
+        font-size: 2rem;
+        padding: 0.3rem 1rem;
+      }
+
+      .ethical-vs-content {
+        grid-template-columns: 1fr;
+      }
+
+      .ethical-vs-content::before {
+        display: none;
+      }
+    }
+
+    .ethical-categories {
+      display: flex;
+      flex-direction: column;
+      gap: 4rem;
+      margin: 3rem 0;
+      background: linear-gradient(135deg, rgba(42,157,143,0.05) 0%, rgba(38,70,83,0.05) 100%);
+      padding: 2rem;
+      border-radius: 24px;
+    }
+
+    .ethical-category {
+      background: rgba(255,255,255,0.05);
+      border-radius: 24px;
+      padding: 2rem;
+      border: 1px solid rgba(42,157,143,0.1);
+      box-shadow: 0 4px 24px rgba(42,157,143,0.1);
+      transition: all 0.3s ease;
+    }
+
+    .ethical-category:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 32px rgba(42,157,143,0.15);
+    }
+
+    .category-title {
+      color: var(--primary);
+      font-size: 1.6rem;
+      text-align: center;
+      margin-bottom: 2rem;
+      padding-bottom: 1rem;
+      border-bottom: 2px solid rgba(42,157,143,0.2);
+      position: relative;
+    }
+
+    .category-title::after {
+      content: '';
+      position: absolute;
+      bottom: -2px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 50px;
+      height: 2px;
+      background: linear-gradient(90deg, var(--primary), var(--accent));
+    }
+
+    .vs-container {
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+      position: relative;
+    }
+
+    .vs-pair {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      position: relative;
+    }
+
+    .vs-card {
+      flex: 1;
+      background: rgba(255,255,255,0.05);
+      border-radius: 16px;
+      padding: 1.5rem;
+      border: 1px solid rgba(42,157,143,0.1);
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .vs-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, rgba(42,157,143,0.1) 0%, rgba(38,70,83,0.1) 100%);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .vs-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 32px rgba(42,157,143,0.15);
+    }
+
+    .vs-card:hover::before {
+      opacity: 1;
+    }
+
+    .vs-card h4 {
+      color: var(--secondary);
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid rgba(42,157,143,0.2);
+      position: relative;
+    }
+
+    .vs-card p {
+      color: var(--text);
+      line-height: 1.8;
+      margin: 0;
+    }
+
+    .vs-divider {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: var(--accent);
+      text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      background: var(--card);
+      padding: 0.5rem 1rem;
+      border-radius: 50%;
+      box-shadow: 0 4px 12px rgba(42,157,143,0.2);
+      position: relative;
+      z-index: 2;
+      transition: all 0.3s ease;
+    }
+
+    .vs-divider:hover {
+      transform: scale(1.1);
+      box-shadow: 0 6px 16px rgba(42,157,143,0.3);
+    }
+
+    @media (max-width: 768px) {
+      .vs-pair {
+        flex-direction: column;
+        gap: 1rem;
+      }
+
+      .vs-divider {
+        font-size: 1.5rem;
+        padding: 0.3rem 0.8rem;
+      }
+
+      .category-title {
+        font-size: 1.6rem;
+      }
+    }
+
+    .survey-container p {
+      line-height: 1.4;
+      margin-bottom: 0.8rem;
+    }
+
+    .survey-options {
+      line-height: 1.3;
+    }
+
+    .survey-options label {
+      margin-bottom: 0.3rem;
+      padding: 0.3rem 0;
+    }
+
+    .survey-question {
+      margin-bottom: 1.5rem;
+    }
+
+    .framework-section {
+      margin-bottom: 3rem;
+      padding: 2rem;
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .framework-section h3 {
+      color: #2c3e50;
+      margin-bottom: 1.5rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid #3498db;
+    }
+
+    .framework-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+    }
+
+    .framework-card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .framework-card h4 {
+      color: #2c3e50;
+      margin-bottom: 1rem;
+    }
+
+    .framework-card ul {
+      list-style-type: disc;
+      padding-left: 1.5rem;
+      margin: 0;
+    }
+
+    .framework-card ul ul {
+      list-style-type: circle;
+      margin-top: 0.5rem;
+    }
+
+    .timeline-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+
+    .timeline-card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .timeline-card h4 {
+      color: #2c3e50;
+      margin-bottom: 0.5rem;
+    }
+
+    .timeline-card p {
+      color: #3498db;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+
+    .timeline-card ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .research-meta {
+      color: #666;
+      font-size: 0.9rem;
+      margin: 0.5rem 0;
+    }
+
+    .research-authors {
+      color: #2c3e50;
+      font-weight: 500;
+      margin: 0.5rem 0;
+    }
+
+    .research-abstract {
+      margin: 1rem 0;
+      line-height: 1.6;
+    }
+
+    .research-link {
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      background: #3498db;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: background 0.3s;
+    }
+
+    .research-link:hover {
+      background: #2980b9;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="video-embed">
+      <video autoplay loop muted playsinline>
+        <source src="./header-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </header>
+  <nav>
+    <div class="nav-dropdown">
+      <a href="#" id="nav-concept" class="active" onclick="showPage('concept')">The Digital Immortality<br><span style="font-size:0.9em;color:#c9ada7;"></span></a>
+      <div class="dropdown-content">
+        <a href="#" onclick="showPage('concept')">Concept</a>
+        <a href="#" onclick="showPage('technology')">Technology</a>
+        <a href="#" onclick="showPage('industry')">Market Status</a>
+      </div>
+    </div>
+    <div class="nav-dropdown">
+      <a href="#" id="nav-cases" onclick="showPage('real-cases')">Cases and Works<br><span style="font-size:0.9em;color:#c9ada7;"></span></a>
+      <div class="dropdown-content">
+        <a href="#" onclick="showPage('real-cases')">Case Studies</a>
+        <a href="#" onclick="showPage('creative-expressions')">Creative Works</a>
+        <a href="#" onclick="showPage('academic-research')">Academic Research</a>
+      </div>
+    </div>
+    <div class="nav-dropdown">
+      <a href="#" id="nav-ethics" onclick="showPage('ethical-questions')">Risks & Measures<br><span style="font-size:0.9em;color:#c9ada7;"></span></a>
+      <div class="dropdown-content">
+        <a href="#" onclick="showPage('ethical-questions')">Ethical Debates</a>
+        <a href="#" onclick="showPage('responsible-use')">Solutions</a>
+      </div>
+    </div>
+  </nav>
+  <a href="#" class="back-to-nav" onclick="hideBackButton()">Back to Navigation</a>
+
+  <main>
+    <!-- Concept -->
+    <div id="page-concept">
+      <div class="section">
+        <h2>The Digital Immortality – Concept</h2>
+        <div class="concept-intro" style="text-align: center; margin: 2rem auto;">
+          <div class="concept-text" style="flex: 1.2; display: flex; flex-direction: column; align-items: center;">
+            <p style="max-width: 600px;"><b>What Is Digital Immortality?</b></p>
+            <p style="max-width: 600px;">Digital Immortality refers to the idea of digitizing human memory, consciousness or personality through technical means, so that it can continue in the virtual space in the form of data; the core is to simulate individual characteristics with the help of artificial intelligence, virtual reality and other technologies, so as to realize the "survival" and interaction of "personality" in the digital world.</p>
+            <p style="max-width: 600px;">These digital avatars may be similar to them in appearance, imitate them in voice, or generate words based on the content they shared before they died.</p>
+            <p style="max-width: 600px;">This new way of remembering the dead is still in the early stages of exploration.</p>
+          </div>
+          <div class="concept-image" style="flex: 0.8; display: flex; justify-content: center; align-items: center;">
+            <img src="./images/concept/digital-afterlife-concept.jpg" alt="Digital Immortality Concept: Brain-Computer Interface + Glass Storage + Virtual Reality = Digital Immortality" style="max-width: 90%; height: auto; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+          </div>
+        </div>
+
+        <h3 class="concept-section-title">Key Words for Digital Immortality</h3>
+        <div class="keyword-grid" style="margin: 2rem 0;">
+          <div class="keyword-item">
+            <div class="keyword-video">
+              <iframe src="https://www.youtube.com/embed/4j8auZREnYE?start=86" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <h4>Digital Clone</h4>
+            <p>Using AI, big data, and machine learning to replicate an individual's thought patterns, memories, and even personality traits to create a virtual avatar. For example, "digital humans" trained on chat histories and social media data.</p>
+            <p style="font-size: 0.9rem; color: var(--secondary); margin-top: 0.5rem;">Diederich, J. (2021). The psychology of artificial superintelligence. In Digital clones (pp. 15–31). Springer.</p>
+          </div>
+          <div class="keyword-item">
+            <div class="keyword-video">
+              <iframe src="https://www.youtube.com/embed/4b33NTAuF5E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <h4>Mind Uploading</h4>
+            <p>The process of converting the neural structure and consciousness information of the human brain into digital code and uploading it to a computer or cloud, achieving the transfer of biological consciousness to digital form.</p>
+            <p style="font-size: 0.9rem; color: var(--secondary); margin-top: 0.5rem;">Cave, S., Dihal, K., & Dillon, S. (Eds.). (2020). AI narratives: A history of imaginative thinking about intelligent machines. Oxford University Press.</p>
+          </div>
+          <div class="keyword-item">
+            <div class="keyword-video">
+              <iframe src="https://www.youtube.com/embed/r3U_niFFw94" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <h4>Digital Legacy</h4>
+            <p>The digital footprints left behind after death (such as social media accounts, cloud storage files, cryptocurrencies, etc.), involving how to manage, inherit, or delete this data.</p>
+            <p style="font-size: 0.9rem; color: var(--secondary); margin-top: 0.5rem;">Doyle, D. T., & Brubaker, J. R. (2023). Digital legacy: A systematic literature review. <i>Proceedings of the ACM on Human-Computer Interaction, 7</i>(CSCW2), Article 268, 1–26.</p>
+          </div>
+        </div>
+
+        <h3 class="concept-section-title">The Spectrum of Digital Human Evolution</h3>
+        <p style="text-align: center; margin-bottom: 2rem; color: var(--secondary);">From simple animations to complex digital consciousness, explore how technology is evolving to capture human essence.</p>
+
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th></th>
+              <th>Traditional Animated Characters</th>
+              <th>Digital Humans<br>(Digital Clones)</th>
+              <th>Ultimate Digital Humans<br>(Digital Immortality)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Physical Appearance</td>
+              <td><span class="check-mark">✓</span></td>
+              <td><span class="check-mark">✓</span></td>
+              <td><span class="check-mark">✓</span></td>
+            </tr>
+            <tr>
+              <td>Facial Expressions</td>
+              <td><span class="check-mark">✓</span></td>
+              <td><span class="check-mark">✓</span></td>
+              <td><span class="check-mark">✓</span></td>
+            </tr>
+            <tr>
+              <td>Actions & Gestures</td>
+              <td><span class="check-mark">✓</span></td>
+              <td><span class="check-mark">✓</span></td>
+              <td><span class="check-mark">✓</span></td>
+            </tr>
+            <tr>
+              <td>Knowledge Base</td>
+              <td></td>
+              <td><span class="check-mark">✓</span></td>
+              <td><span class="check-mark">✓</span></td>
+            </tr>
+            <tr>
+              <td>Logical Thinking</td>
+              <td></td>
+              <td><span class="check-mark">✓</span></td>
+              <td><span class="check-mark">✓</span></td>
+            </tr>
+            <tr>
+              <td>Life Memories</td>
+              <td></td>
+              <td></td>
+              <td><span class="check-mark">✓</span></td>
+            </tr>
+            <tr>
+              <td>Emotional Expression</td>
+              <td></td>
+              <td></td>
+              <td><span class="check-mark">✓</span></td>
+            </tr>
+            <tr>
+              <td>Self-Awareness</td>
+              <td></td>
+              <td></td>
+              <td><span class="check-mark">✓</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Technology -->
+    <div id="page-technology" style="display:none;">
+      <div class="section">
+        <h2>The Digital Immortality – Technology</h2>
+        <div class="tech-container">
+          <button class="scroll-button scroll-left" onclick="scrollTech('left')"></button>
+          <div class="tech-list">
+            <div class="tech-item">
+              <div class="tech-image" data-title="Machine Learning Technology">
+                <img src="./images/tech/machine-learning.jpg" alt="Machine Learning Technology">
+              </div>
+              <div class="tech-content">
+                <h4>Machine Learning</h4>
+                <p>Machine learning is a branch of artificial intelligence that uses algorithms to allow computers to learn patterns from data and make predictions or decisions. In digital immortality, machine learning is used to analyze and simulate human thinking, memory, and behavior patterns to build interactive digital consciousness.</p>
+              </div>
+            </div>
+
+            <div class="tech-item">
+              <div class="tech-image" data-title="Virtual Reality Technology">
+                <img src="./images/tech/virtual-reality.jpg" alt="Virtual Reality Technology">
+              </div>
+              <div class="tech-content">
+                <h4>Virtual Reality (VR)</h4>
+                <p>Virtual Reality (VR) is a technology that generates an immersive three-dimensional environment through computer simulation, which users can interact with through devices such as head-mounted displays. In digital immortality, VR can be used as a virtual world that carries digital consciousness, allowing the reproduced personality to exist, interact, and even "continue life" in a realistic form.</p>
+              </div>
+            </div>
+
+            <div class="tech-item">
+              <div class="tech-image" data-title="Natural Language Processing">
+                <img src="./images/tech/nlp.jpg" alt="Natural Language Processing">
+              </div>
+              <div class="tech-content">
+                <h4>Natural Language Processing (NLP)</h4>
+                <p>Natural Language Processing (NLP) is a branch of artificial intelligence that aims to enable computers to understand, generate, and process human language. In digital immortality, NLP is used to parse and simulate an individual's language patterns and conversational styles, so that the digital personality can interact naturally and retain the original owner's language characteristics.</p>
+              </div>
+            </div>
+
+            <div class="tech-item">
+              <div class="tech-image" data-title="Chatbot Technology">
+                <img src="./images/tech/chatbot.jpg" alt="Chatbot Technology">
+              </div>
+              <div class="tech-content">
+                <h4>Chatbots</h4>
+                <p>Chatbots are conversational programs based on artificial intelligence that communicate with users in an anthropomorphic manner through natural language processing technology. In digital immortality, Chatbots can be used as interactive carriers of digital personalities, and by learning the language style and knowledge base of the deceased, they can achieve the continuation of conversations across time and space.</p>
+              </div>
+            </div>
+          </div>
+          <button class="scroll-button scroll-right" onclick="scrollTech('right')"></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Industry Overview -->
+    <div id="page-industry" style="display:none;">
+      <div class="section">
+        <h2>The Digital Immortality – Market Status</h2>
+        <div class="market-analysis">
+          <div class="market-stage">
+            <h3>1. Market Development Stages</h3>
+            <div class="stage-content">
+              <img src="./images/market/market-stages.jpg" alt="Market Development Stages" style="width: 100%; max-width: 800px; margin: 1rem auto; display: block; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+              <h4>Emerging Phase</h4>
+              <p>Technology currently focuses on "digital legacy management" and "basic personality simulation," with true consciousness uploading not yet achieved. However, conceptual products like AI chatbots and VR avatars have emerged (e.g., Project December, HereAfter AI).</p>
+              
+              <h4>Market Segmentation</h4>
+              <ul>
+                <li><strong>Emotion-Driven Demand:</strong> Services like "AI resurrection of loved ones" (e.g., China's "Super Brain" team creating digital replicas of the deceased).</li>
+                <li><strong>Enterprise Applications:</strong> Digital human technology used in entertainment and education (e.g., virtual celebrities in the metaverse).</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="market-players">
+            <h3>2. Key Market Players</h3>
+            <div class="players-content">
+              <img src="./images/market/market-players.jpg" alt="Key Market Players" style="width: 100%; max-width: 800px; margin: 1rem auto; display: block; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+              <ul>
+                <li><strong>Startups:</strong> Focused on AI personality cloning (e.g., Replika, Eternime) and memory storage (Nectome).</li>
+                <li><strong>Tech Giants:</strong> Microsoft (patent for "digital immortality chatbot"), Meta (virtual identity + VR), Baidu (digital human platform).</li>
+                <li><strong>Ethical Challenges:</strong> Legal and privacy issues limiting scalability, such as GDPR restrictions on data usage in the EU.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="business-models">
+            <h3>3. Business Models</h3>
+            <div class="models-content">
+              <img src="./images/market/business-models.jpg" alt="Business Models" style="width: 100%; max-width: 800px; margin: 1rem auto; display: block; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+              <ul>
+                <li><strong>B2C Services:</strong> Users pay to create digital replicas (approximately hundreds to thousands of dollars per year), including AI will assistants and virtual companionship.</li>
+                <li><strong>B2B Partnerships:</strong> Integration with funeral and insurance industries (e.g., Korean "AI tombstones" offering holographic interactions).</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer style="text-align: center; padding: 2rem; color: var(--secondary); font-size: 0.9rem;">
+        <p>Image source: Zhu, Y., Hu, Z., Cai, Y., Zou, X., Zou, Q., Lu, S., Zhang, H., & Hong, J. (2025, April 7). Binary Tombstones: The AI Emotional Economy Behind Digital Immortality. Tencent Research Institute.</p>
+      </footer>
+    </div>
+
+    <!-- Real Cases -->
+    <div id="page-real-cases" style="display:none;">
+      <div class="section">
+        <div class="case-study">
+          <div class="case-content">
+            <h2 class="section-title">Cloud Chronicles: Real-World Applications</h2>
+            <div class="case-text">
+              <h3>Digital immortality: a Chinese mother's journey to bring her only child back to life with AI</h3>
+              <p>After her daughter died of lymphoma, a Chinese mother, in great sorrow, decided to bring her only child back to life with AI. Her move, which resembles an episode from British drama Black Mirror, triggered nationwide debate over technology and ethics.</p>
+            </div>
+          </div>
+          <div class="case-video">
+            <iframe src="https://www.youtube.com/embed/5xxb75ryRPM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Creative Expressions -->
+    <div id="page-creative-expressions" style="display:none;">
+      <div class="section">
+        <h2>Reel Innovations: Tech in Film & TV</h2>
+        <div class="creative-grid">
+          <div class="creative-item">
+            <div class="creative-content">
+              <h4>Black Mirror Season 3 Episode 04 San Junipero: The Future of Love and Technology</h4>
+              <p>In a digital afterlife resort, two women fall in love while exploring the boundaries between reality and virtual existence, questioning what it means to truly live and love in a digital world.</p>
+            </div>
+            <div class="video-container">
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/AMd5V5RcFKo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="creative-item">
+            <div class="creative-content">
+              <h4>In a world where AI allows communication with the dead, characters question reality and humanity.</h4>
+              <p>This thought-provoking exploration examines how AI technology enables conversations with deceased loved ones, blurring the lines between the living and the dead, and challenging our fundamental understanding of human existence and relationships.</p>
+            </div>
+            <div class="video-container">
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/sc9fp04iWM8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Academic Research -->
+    <div id="page-academic-research" style="display:none;">
+      <div class="section">
+        <h2>Academic Archives: Bridging Theory and Evidence</h2>
+        <div class="research-grid">
+          <div class="research-item">
+            <div class="research-image">
+              <img src="./images/research/digital-immortality-paper.jpg" alt="Digital Immortality and Virtual Humans" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+            </div>
+            <div class="research-content">
+              <h4>Digital Immortality and Virtual Humans</h4>
+              <p class="research-meta">Postdigital Science and Education | Volume 1, pages 87–103 (2019)</p>
+              <p class="research-authors">Maggi Savin-Baden & David Burden</p>
+              <p class="research-abstract">The use of virtual assistants such as Siri that provide voice and conversational interfaces, the growth of machine learning techniques to mine large data sets and the rise in the level of autonomy being given to computer-controlled systems all represent shifts in artificial intelligence that are enhancing the creation of digital immortality. The growth of personality capture and levels of brain simulation as well as computationally inspired life after death may change the future of religion, affect understandings of the afterlife and increase the influence of the dead surviving in society.</p>
+              <a href="https://link.springer.com/article/10.1007/s42438-018-0007-6" target="_blank" class="research-link">Read Paper →</a>
+            </div>
+          </div>
+
+          <div class="research-item">
+            <div class="research-image">
+              <img src="./images/research/second.jpg" alt="Predicting Me: The Route to Digital Immortality?" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+            </div>
+            <div class="research-content">
+              <h4>Predicting Me: The Route to Digital Immortality?</h4>
+              <p class="research-meta">The Mind-Technology Problem | Chapter, pp 185–207 (2021)</p>
+              <p class="research-authors">Paul Smart</p>
+              <p class="research-abstract">An emerging consensus in cognitive science views the biological brain as a hierarchically-organized predictive processing system that relies on generative models to predict the structure of sensory information. Such a view resonates with a body of work in machine learning that has explored the problem-solving capabilities of hierarchically-organized, multi-layer (i.e., deep) neural networks, many of which acquire and deploy generative models of their training data. The present chapter explores the extent to which the ostensible convergence on a common neurocomputational architecture (centred on predictive processing schemes, hierarchical organization, and generative models) might provide inroads into the problem of digital immortality.</p>
+              <a href="https://link.springer.com/chapter/10.1007/978-3-030-72644-7_8" target="_blank" class="research-link">Read Paper →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Ethical Questions -->
+    <div id="page-ethical-questions" style="display:none;">
+      <div class="section">
+        <h2>Values & Virtues: Ethics in the Real World</h2>
+        <div class="ethical-categories">
+          <div class="ethical-category">
+            <h3 class="category-title">Identity & Personhood</h3>
+            <div class="vs-container">
+              <div class="vs-pair">
+                <div class="vs-card">
+                  <img src="./images/ethics/digital-rights.jpg" alt="Digital Human Rights" style="width: 100%; max-width: 400px; margin: 0 auto 1rem; display: block; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                  <h4 style="text-align: center;">Digital Human Rights</h4>
+                  <p>When AI simulates a deceased person's digital avatar, does it possess "personality rights"? Can its words and actions truly represent the original person?</p>
+                </div>
+                <div class="vs-divider">VS</div>
+                <div class="vs-card">
+                  <img src="./images/ethics/legal-responsibility.jpg" alt="Legal Responsibility" style="width: 100%; max-width: 400px; margin: 0 auto 1rem; display: block; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                  <h4 style="text-align: center;">Legal Responsibility</h4>
+                  <p>How should legal responsibility be defined? For instance, if a digital personality makes inappropriate statements, who should bear the consequences?</p>
+                </div>
+              </div>
+              <div class="vs-pair">
+                <div class="vs-card">
+                  <img src="./images/ethics/psychological-comfort.jpg" alt="Psychological Comfort" style="width: 100%; max-width: 400px; margin: 0 auto 1rem; display: block; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                  <h4 style="text-align: center;">Psychological Comfort</h4>
+                  <p>Digital avatars can provide comfort to grieving families, helping them maintain a connection with their loved ones.</p>
+                </div>
+                <div class="vs-divider">VS</div>
+                <div class="vs-card">
+                  <img src="./images/ethics/identity-fragmentation.jpg" alt="Identity Fragmentation" style="width: 100%; max-width: 400px; margin: 0 auto 1rem; display: block; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                  <h4 style="text-align: center;">Identity Fragmentation</h4>
+                  <p>The living may struggle to accept death due to their digital avatar's "immortality," potentially leading to psychological dependence or ethical confusion.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="ethical-category">
+            <h3 class="category-title">Data Privacy & Ownership</h3>
+            <div class="vs-container">
+              <div class="vs-pair">
+                <div class="vs-card">
+                  <img src="./images/ethics/personal-autonomy.jpg" alt="Personal Autonomy" style="width: 100%; max-width: 400px; margin: 0 auto 1rem; display: block; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                  <h4 style="text-align: center;">Personal Autonomy</h4>
+                  <p>Individuals should have the right to decide how their digital legacy is used after death, ensuring their wishes are respected.</p>
+                </div>
+                <div class="vs-divider">VS</div>
+                <div class="vs-card">
+                  <img src="./images/ethics/family-rights.jpg" alt="Family Rights" style="width: 100%; max-width: 400px; margin: 0 auto 1rem; display: block; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                  <h4 style="text-align: center;">Family Rights</h4>
+                  <p>Family members may need access to digital assets for closure, but should they have the authority to create digital avatars without explicit consent?</p>
+                </div>
+              </div>
+              <div class="vs-pair">
+                <div class="vs-card">
+                  <img src="./images/ethics/technological-progress.jpg" alt="Technological Progress" style="width: 100%; max-width: 400px; margin: 0 auto 1rem; display: block; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                  <h4 style="text-align: center;">Technological Progress</h4>
+                  <p>Digital immortality technologies can advance medical research and AI development, benefiting society as a whole.</p>
+                </div>
+                <div class="vs-divider">VS</div>
+                <div class="vs-card">
+                  <img src="./images/ethics/data-exploitation.jpg" alt="Data Exploitation" style="width: 100%; max-width: 400px; margin: 0 auto 1rem; display: block; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                  <h4 style="text-align: center;">Data Exploitation</h4>
+                  <p>Companies might exploit deceased individuals' data for profit (e.g., advertising, commercialization of virtual idols), or face hacker attacks leading to "digital desecration."</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="survey-container">
+          <h3>Digital Immortality Survey</h3>
+          <div class="survey-question">
+            <h3>1. How familiar are you with the concept of digital immortality?</h3>
+            <div class="survey-options">
+              <label><input type="radio" name="q1" value="very"> Very familiar</label>
+              <label><input type="radio" name="q1" value="somewhat"> Somewhat familiar</label>
+              <label><input type="radio" name="q1" value="little"> A little familiar</label>
+              <label><input type="radio" name="q1" value="not"> Not familiar at all</label>
+            </div>
+          </div>
+
+          <div class="survey-question">
+            <h3>2. Would you consider uploading your consciousness to a digital platform after death?</h3>
+            <div class="survey-options">
+              <label><input type="radio" name="q2" value="yes"> Yes, definitely</label>
+              <label><input type="radio" name="q2" value="maybe"> Maybe, depending on the technology</label>
+              <label><input type="radio" name="q2" value="no"> No, I would not</label>
+              <label><input type="radio" name="q2" value="unsure"> I'm not sure</label>
+            </div>
+          </div>
+
+          <div class="survey-question">
+            <h3>3. What ethical concerns do you have about digital immortality? (Select all that apply)</h3>
+            <div class="survey-options">
+              <label><input type="checkbox" name="q3" value="privacy"> Privacy and data security</label>
+              <label><input type="checkbox" name="q3" value="identity"> Identity and personhood</label>
+              <label><input type="checkbox" name="q3" value="consent"> Consent and autonomy</label>
+              <label><input type="checkbox" name="q3" value="emotional"> Emotional impact on the living</label>
+              <label><input type="checkbox" name="q3" value="other"> Other: <input type="text" name="q3_other"></label>
+            </div>
+          </div>
+
+          <div class="survey-question">
+            <h3>4. How do you think digital immortality will impact society?</h3>
+            <div class="survey-options">
+              <label><input type="radio" name="q4" value="positive"> Mostly positive impact</label>
+              <label><input type="radio" name="q4" value="negative"> Mostly negative impact</label>
+              <label><input type="radio" name="q4" value="neutral"> Neutral impact</label>
+              <label><input type="radio" name="q4" value="mixed"> Mixed impact</label>
+            </div>
+          </div>
+
+          <div class="survey-question">
+            <h3>5. Which form of digital immortality would you prefer? (Select all that apply)</h3>
+            <div class="survey-options">
+              <label><input type="checkbox" name="q5" value="avatar"> Digital avatar</label>
+              <label><input type="checkbox" name="q5" value="chatbot"> AI chatbot</label>
+              <label><input type="checkbox" name="q5" value="vr"> VR experience</label>
+              <label><input type="checkbox" name="q5" value="memory"> Digital memory archive</label>
+              <label><input type="checkbox" name="q5" value="other"> Other: <input type="text" name="q5_other"></label>
+            </div>
+          </div>
+
+          <div class="survey-question">
+            <h3>6. What conditions would need to be met for you to support the development of digital immortality technology?</h3>
+            <div class="survey-options">
+              <label><input type="checkbox" name="q6" value="security"> Strong data security measures</label>
+              <label><input type="checkbox" name="q6" value="consent"> Clear consent procedures</label>
+              <label><input type="checkbox" name="q6" value="regulation"> Government regulation</label>
+              <label><input type="checkbox" name="q6" value="access"> Equal access for all</label>
+              <label><input type="checkbox" name="q6" value="other"> Other: <input type="text" name="q6_other"></label>
+            </div>
+          </div>
+
+          <div class="survey-question">
+            <h3>7. What are your thoughts on the future of digital immortality?</h3>
+            <div class="survey-options">
+              <input type="text" name="q7" placeholder="Share your thoughts...">
+            </div>
+          </div>
+
+          <button class="btn" onclick="generateRecommendations()">Submit Survey</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Responsible Use -->
+    <div id="page-responsible-use" style="display:none;">
+      <div class="section">
+        <h2>Souls & Servers: Governing Immortal Consciousness</h2>
+        
+        <div class="video-container" style="margin: 2rem 0; text-align: center;">
+          <iframe width="800" height="450" src="https://www.youtube.com/embed/2URf46UY7-A" 
+                  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                  allowfullscreen style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+          </iframe>
+        </div>
+        
+        <div class="framework-section">
+          <h3>I. Technical Aspects: Breakthroughs and Constraints</h3>
+          <div class="framework-grid">
+            <div class="framework-card">
+              <h4>Research Directions</h4>
+              <ul>
+                <li>Priority Setting: Focus on fundamental sciences (e.g., brain-computer interfaces, consciousness modeling) rather than commercial applications to prevent technology misuse.</li>
+                <li>Open Source Collaboration: Promote global research institutions to share non-sensitive data (e.g., brain science databases) to accelerate technological breakthroughs.</li>
+                <li>Security Redundancy Design: Digital consciousness storage and transmission require encryption and distributed backup to prevent hacker attacks or data loss.</li>
+              </ul>
+            </div>
+            <div class="framework-card">
+              <h4>Ethical Technical Framework</h4>
+              <ul>
+                <li>Consciousness Verification Standards: Develop technical protocols to determine if digital consciousness possesses "self-awareness" (e.g., enhanced Turing test).</li>
+                <li>Termination Switch: Mandate all digital consciousness entities to have controllable termination programs to prevent runaway risks.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="framework-section">
+          <h3>II. Policy and Law: Regulation and Balance</h3>
+          <div class="framework-grid">
+            <div class="framework-card">
+              <h4>Domestic Policy Recommendations</h4>
+              <ul>
+                <li>Tiered Licensing System:
+                  <ul>
+                    <li>L1: Allow memory storage (e.g., AI chatbot form of "digital legacy")</li>
+                    <li>L2: Limited consciousness upload (restricted to end-of-life medical or research purposes)</li>
+                  </ul>
+                </li>
+                <li>Data Sovereignty Legislation: Clarify the legal status of digital consciousness entities (as "property" or "subject") to resolve inheritance and liability issues.</li>
+              </ul>
+            </div>
+            <div class="framework-card">
+              <h4>International Collaboration Priorities</h4>
+              <ul>
+                <li>Global Technology Convention: Similar to the "AI Ethics Declaration," prohibiting the use of digital consciousness for military or slavery purposes.</li>
+                <li>Resource Allocation Mechanism: Prevent technology monopoly, requiring developed countries to transfer basic technologies (e.g., cloud storage cost optimization) to developing nations.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="framework-section">
+          <h3>III. User Education: Awareness and Choice</h3>
+          <div class="framework-grid">
+            <div class="framework-card">
+              <h4>Public Science Education</h4>
+              <ul>
+                <li>Establish "Digital Life" education modules to explain technological boundaries (e.g., "consciousness replication ≠ soul transfer").</li>
+                <li>Use virtual reality (VR) to simulate digital immortality scenarios, helping users make informed choices.</li>
+              </ul>
+            </div>
+            <div class="framework-card">
+              <h4>Psychological Support System</h4>
+              <ul>
+                <li>Provide psychological assessment for those attempting consciousness upload to prevent identity confusion (e.g., "Am I human or AI?").</li>
+                <li>Establish "Digital End-of-Life Care" institutions to assist users in planning their digital legacy.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="framework-section">
+          <h3>IV. Cross-Border Conflict Resolution</h3>
+          <div class="framework-grid">
+            <div class="framework-card">
+              <h4>Cultural Conflict Mediation</h4>
+              <ul>
+                <li>In religious countries (e.g., Catholic regions), engage religious leaders in discussions to redefine the relationship between "eternal life" and "soul."</li>
+              </ul>
+            </div>
+            <div class="framework-card">
+              <h4>Technology Cold War Prevention</h4>
+              <ul>
+                <li>Establish an international digital consciousness regulatory organization (similar to IAEA) to verify compliance of national technology development.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="framework-section">
+          <h3>V. Phased Implementation Path</h3>
+          <div class="timeline-grid">
+            <div class="timeline-card">
+              <h4>Short-term (5 years)</h4>
+              <p>Technology Controllability Verification</p>
+              <ul>
+                <li>Legislate to prohibit live human consciousness upload, limiting experiments to post-mortem cases.</li>
+              </ul>
+            </div>
+            <div class="timeline-card">
+              <h4>Medium-term (10 years)</h4>
+              <p>Limited Scenario Applications</p>
+              <ul>
+                <li>Open memory archiving for terminally ill patients, requiring judicial notarization.</li>
+              </ul>
+            </div>
+            <div class="timeline-card">
+              <h4>Long-term (20 years)</h4>
+              <p>Global Governance System Establishment</p>
+              <ul>
+                <li>Digital consciousness entities can apply for "electronic citizenship" status.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Resources -->
+    <div id="page-resources" style="display:none;">
+      <div class="section">
+        <h2>Resources &amp; Further Reading</h2>
+        <ul class="resource-list">
+          <li><a href="https://www.sciencedirect.com/science/article/pii/S0267364924000104" target="_blank">Affection as a Service: Ghostbots and Mourning</a></li>
+          <li><a href="https://link.springer.com/article/10.1007/s10676-024-09744-y" target="_blank">Embracing grief in the age of deathbots</a></li>
+          <li><a href="https://www.diva-portal.org/smash/get/diva2:1878114/FULLTEXT01.pdf" target="_blank">What If, We Live Forever Digitally?</a></li>
+          <li><a href="https://arxiv.org/html/2502.21248v1" target="_blank">Digital Doppelgangers: Pre-Mortem AI Clones</a></li>
+          <li><a href="https://scholarspace.manoa.hawaii.edu/server/api/core/bitstreams/e0b4f8c1-3d54-4821-a9fa-72275f32e991/content" target="_blank">AI-Driven Grief Chatbots</a></li>
+          <li><a href="https://ijarcce.com/wp-content/uploads/2025/03/IJARCCE.2025.14247.pdf" target="_blank">AI Cloud Consciousness as the New Immortality</a></li>
+        </ul>
+        <h3>Film & Media</h3>
+        <ul class="resource-list">
+          <li><a href="https://www.youtube.com/watch?v=6F2O23J1waw" target="_blank">Eternal You (2024) – Documentary</a></li>
+          <li><a href="https://www.youtube.com/watch?v=NFIRWIGxWl8" target="_blank">Wonderland (2024) – Film</a></li>
+          <li><a href="https://www.youtube.com/watch?v=M8PsZki6NGU" target="_blank">Altered Carbon – Netflix</a></li>
+        </ul>
+        <h3>Notable Companies</h3>
+        <ul class="resource-list">
+          <li><b>HereAfter AI</b> – <a href="https://www.hereafter.ai/" target="_blank">hereafter.ai</a></li>
+          <li><b>StoryFile</b> – <a href="https://storyfile.com/" target="_blank">storyfile.com</a></li>
+          <li><b>Re;memory (DeepBrain AI)</b> – <a href="https://www.deepbrainai.io/rememory" target="_blank">deepbrainai.io/rememory</a></li>
+          <li><b>You, Only Virtual</b> – <a href="https://www.youonlyvirtual.com/" target="_blank">youonlyvirtual.com</a></li>
+          <li><b>Seance AI</b> – <a href="https://www.seanceai.com/" target="_blank">seanceai.com</a></li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    // Navigation
+    function showPage(page) {
+      ['concept', 'technology', 'industry', 'real-cases', 'creative-expressions', 'academic-research', 'emotional-impact', 'ethical-questions', 'responsible-use'].forEach(function(p) {
+        const element = document.getElementById('page-' + p);
+        if (element) {
+          element.style.display = (p === page) ? 'block' : 'none';
+          if (p === page) {
+            element.classList.add('page-transition');
+            setTimeout(() => element.classList.remove('page-transition'), 500);
+          }
+        }
+        if (p === 'concept' || p === 'technology' || p === 'industry') {
+          document.getElementById('nav-concept').classList.toggle('active', ['concept', 'technology', 'industry'].includes(page));
+        } else if (p === 'real-cases' || p === 'creative-expressions' || p === 'academic-research') {
+          document.getElementById('nav-cases').classList.toggle('active', ['real-cases', 'creative-expressions', 'academic-research'].includes(page));
+        } else if (p === 'emotional-impact' || p === 'ethical-questions' || p === 'responsible-use') {
+          document.getElementById('nav-ethics').classList.toggle('active', ['emotional-impact', 'ethical-questions', 'responsible-use'].includes(page));
+        }
+      });
+    }
+
+    // Survey
+    function generateRecommendations() {
+      const form = document.getElementById('survey-form');
+      const answers = [];
+      
+      // Collect answers
+      for (let i = 1; i <= 7; i++) {
+        const name = 'q' + i;
+        let value = '';
+        
+        if (i === 3 || i === 6) {
+          // Handle multiple choice questions
+          const checkboxes = form.querySelectorAll(`input[name="${name}"]:checked`);
+          value = Array.from(checkboxes).map(cb => {
+            const content = cb.closest('.condition-item, .ethical-item');
+            return content ? content.querySelector('.condition-label, .ethical-label').textContent : cb.value;
+          }).join(', ');
+        } else if (i === 4) {
+          // Handle slider
+          const slider = form.querySelector(`input[name="${name}"]`);
+          const labels = ['Strongly Negative', 'Negative', 'Neutral', 'Positive', 'Strongly Positive'];
+          value = labels[slider.value - 1];
+        } else if (i === 7) {
+          // Handle textarea
+          value = form.querySelector(`textarea[name="${name}"]`).value;
+        } else {
+          // Handle radio buttons
+          const selected = form.querySelector(`input[name="${name}"]:checked`);
+          if (selected) {
+            const content = selected.closest('.scale-item, .perspective-item, .form-item');
+            value = content ? content.querySelector('.scale-label, .perspective-label, .form-label').textContent : selected.value;
+          }
+        }
+        
+        answers.push(`<div class="answer-item">
+          <span class="answer-question">Q${i}</span>
+          <span class="answer-value">${value || '<i>No answer</i>'}</span>
+        </div>`);
+      }
+      
+      // Show results
+      document.getElementById('survey-answers').innerHTML = answers.join('');
+      
+      // Generate recommendations
+      const recommendations = generateRecommendations(form);
+      document.getElementById('recommendations').innerHTML = recommendations.map(r => 
+        `<li>${r}</li>`
+      ).join('');
+      
+      form.style.display = 'none';
+      document.getElementById('survey-result').style.display = 'block';
+    }
+
+    function showBackButton() {
+      document.querySelector('.back-to-nav').style.display = 'block';
+    }
+
+    function hideBackButton() {
+      document.querySelector('.back-to-nav').style.display = 'none';
+      window.scrollTo(0, 0);
+    }
+
+    // 监听滚动事件，当滚动到顶部时隐藏返回按钮
+    window.addEventListener('scroll', function() {
+      if (window.scrollY === 0) {
+        document.querySelector('.back-to-nav').style.display = 'none';
+      }
+    });
+
+    // 添加滚动动画
+    document.addEventListener('DOMContentLoaded', function() {
+      const sections = document.querySelectorAll('.section');
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.style.opacity = '1';
+            entry.target.style.transform = 'translateY(0)';
+          }
+        });
+      }, { threshold: 0.1 });
+
+      sections.forEach(section => {
+        section.style.opacity = '0';
+        section.style.transform = 'translateY(20px)';
+        section.style.transition = 'all 0.6s ease-out';
+        observer.observe(section);
+      });
+    });
+
+    // 添加滚动到指定部分的功能
+    function scrollToSection(sectionId) {
+      const section = document.getElementById(sectionId);
+      if (section) {
+        showPage('cases');
+        setTimeout(() => {
+          section.scrollIntoView({ behavior: 'smooth' });
+        }, 100);
+      }
+    }
+
+    function scrollTech(direction) {
+      const container = document.querySelector('.tech-list');
+      const scrollAmount = container.offsetWidth;
+      if (direction === 'left') {
+        container.scrollBy({
+          left: -scrollAmount,
+          behavior: 'smooth'
+        });
+      } else {
+        container.scrollBy({
+          left: scrollAmount,
+          behavior: 'smooth'
+        });
+      }
+    }
+
+    // Optional: Hide scroll buttons at ends
+    const techList = document.querySelector('.tech-list');
+    const leftButton = document.querySelector('.scroll-left');
+    const rightButton = document.querySelector('.scroll-right');
+
+    techList.addEventListener('scroll', () => {
+      const isAtStart = techList.scrollLeft === 0;
+      const isAtEnd = techList.scrollLeft + techList.offsetWidth >= techList.scrollWidth;
+      
+      leftButton.style.opacity = isAtStart ? '0.5' : '1';
+      rightButton.style.opacity = isAtEnd ? '0.5' : '1';
+      leftButton.style.cursor = isAtStart ? 'default' : 'pointer';
+      rightButton.style.cursor = isAtEnd ? 'default' : 'pointer';
+    });
+  </script>
+</body>
+</html>
